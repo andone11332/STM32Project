@@ -1,0 +1,38 @@
+# 忽略STM32CubeIDE生成的构建文件夹
+Debug/
+Release/
+build/
+
+# 忽略Keil MDK-ARM的项目对象和输出文件
+*.uvgui.*
+*.uvoptx
+*.uvprojx
+*.axf
+*.crf
+*.d
+*.o
+*.lst
+*.map
+*.dep
+*.log
+
+# 忽略IDE特有的项目文件
+# 注意：.cproject, .project 和 .ioc 是项目核心文件，我们选择保留它们。
+# .mxproject 通常也保留。
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略任何本地用户配置文件
+*.local
+
+# 忽略版本控制系统的文件夹
+.svn/
+*.swp
+*.swo
+
+# 忽略编译输出文件
+*.elf
+*.bin
+*.hex
