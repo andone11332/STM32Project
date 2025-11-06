@@ -1,0 +1,4 @@
+*.uvguix.* binary
+*.uvoptx binary
+*.uvprojx binary
+*.uvmpw binary
